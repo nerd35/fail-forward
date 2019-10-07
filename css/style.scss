@@ -1,0 +1,43 @@
+.about-header{
+    height: 220px;
+}
+.theme-bg-dark{
+    background-color: rgb(253, 186, 19);
+}
+.btn-warning{
+    background-color: #6E6E6E !important;
+    &:hover{
+        background-color: #FDBA13 !important;
+    }
+}
+.fa-fw{
+    color: rgb(253, 186, 19);
+}
+
+.btn-primary{
+    background-color: #FDBA13;
+    &:hover{
+        background-color: #000000;
+    }
+}
+.btn-secondary{
+    &:hover{
+        background-color: #FDBA13;
+    }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(253, 186, 19);
+}
+.text-primary{
+    color: #FDBA13 !important;
+}
+.btn-success{
+    background-color: #000000;
+    &:hover{
+        background-color: #6E6E6E;
+    }
+}

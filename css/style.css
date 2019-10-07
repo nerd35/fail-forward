@@ -1,0 +1,52 @@
+.about-header {
+  height: 220px;
+}
+
+.theme-bg-dark {
+  background-color: #fdba13;
+}
+
+.btn-warning {
+  background-color: #6E6E6E !important;
+}
+
+.btn-warning:hover {
+  background-color: #FDBA13 !important;
+}
+
+.fa-fw {
+  color: #fdba13;
+}
+
+.btn-primary {
+  background-color: #FDBA13;
+}
+
+.btn-primary:hover {
+  background-color: #000000;
+}
+
+.btn-secondary:hover {
+  background-color: #FDBA13;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fdba13;
+}
+
+.text-primary {
+  color: #FDBA13 !important;
+}
+
+.btn-success {
+  background-color: #000000;
+}
+
+.btn-success:hover {
+  background-color: #6E6E6E;
+}
+/*# sourceMappingURL=style.css.map */
