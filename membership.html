@@ -80,6 +80,8 @@
         </div><!--//branding-->
     </header><!--//header-->
 	<div class="container-fluid about-header theme-bg-dark mb-4">
+			<div class="theme-bg-shapes-right"></div>
+			<div class="theme-bg-shapes-left"></div>
 		<div class="row">
 				<div class="col-lg-12 col-sm-12">
 						<h1 class="text-center text-white" style="margin-top: 90px">Membership</h1>
@@ -142,7 +144,7 @@
 									<div class="col-lg-4 col-sm-12">
 											<label>Region<span class="text-danger"> *</span></label>
 											<select class="w-100 border-dark" name="region" style="border-radius: 25px; height:45px;">
-												<option> -- Select your region --</option>
+												<option>&nbsp;&nbsp; -- Select your region --</option>
 												<option> Africa</option>
 												<option> North America</option>
 												<option> South America</option>
@@ -170,27 +172,27 @@
 							<div class="row mt-2">
 								<div class="col-lg-4 col-sm-12">
 										<label>Facebook <span class="text-danger"> *</span></label>
-										<input type="text" name="fbook"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+										<input type="text" name="fbook"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.facebook.com/" style="border-radius: 25px; height: 45px;">
 									</div>
 									<div class="col-lg-4 col-sm-12">
 											<label>Linkedin <span class="text-danger"> *</span></label>
-											<input type="text" name="Linkedin"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+											<input type="text" name="Linkedin"  class="w-100 border-dark"  placeholder="&nbsp;&nbsp; www.linkedin.com/" style="border-radius: 25px; height: 45px;">
 										</div>
 
 								<div class="col-lg-4 col-sm-12">
 										<label>Instagram <span class="text-danger"> *</span></label>
-										<input type="text" name="instagram"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+										<input type="text" name="instagram"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.instagram.com/" style="border-radius: 25px; height: 45px;">
 									</div>
 							</div>
 							<div class="row mt-3">
 									<div class="col-lg-4 col-sm-12">
 											<label>Twitter <span class="text-danger"> *</span></label>
-											<input type="text" name="twitter"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+											<input type="text" name="twitter"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.twitter.com/" style="border-radius: 25px; height: 45px;">
 										</div>
 									<div class="col-lg-4 col-sm-12">
 											<label>How did you hear about us? <span class="text-danger"> *</span></label>
 										<select style="border-radius: 25px; height: 45px" name="howdid" class="w-100 border-dark">
-											<option> -- choose an option --</option>
+											<option> &nbsp;&nbsp; -- choose an option --</option>
 											<option> Friend</option>
 											<option> Social media </option>
 											<option> Events</option>
@@ -198,11 +200,15 @@
 											<option> Others</option>
 										</select>
 									</div>
+									<div class="col-lg-4 col-sm-12">
+											<label>Other, please specify <span class="text-danger"> </span></label>
+											<input type="text" name="others" class="w-100 border-dark" style="border-radius: 18px; height: 45px;">
+										</div>
 							</div>
 							<div class="row mt-3">
 								<div class="col-lg-12 col-sm-12">
 										<label>Why do you want to join a Fail Forward Chapter in your city or campus? <span class="text-danger"> *</span></label>
-										<textarea class="w-100 border-dark" style="height: 160px;" placeholder=" Why do you wish to join?"></textarea>
+										<textarea class="w-100 border-dark" style="height: 160px;" placeholder="&nbsp;&nbsp; Why do you wish to join?"></textarea>
 
 								</div>
 								<button type="submit" class="btn btn-primary btn-lg mt-3" style="border-radius: 25px;">Submit</button>
@@ -275,15 +281,19 @@
 											<input type="text" name="startup"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
 										</div>
 										<div class="col-lg-4 col-sm-12">
-												<label>Country of residence<span class="text-danger"> *</span></label>
+												<label>Title<span class="text-danger"> *</span></label>
 												<input type="text" name="country"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
 											</div>
 								</div>
 							<div class="row mt-3">
 									<div class="col-lg-4 col-sm-12">
+											<label>Country of residence<span class="text-danger"> *</span></label>
+											<input type="text" name="country"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+										</div>
+									<div class="col-lg-4 col-sm-12">
 											<label>Region<span class="text-danger"> *</span></label>
 											<select class="w-100 border-dark" name="region" style="border-radius: 25px; height:45px;">
-												<option> -- Select your region --</option>
+												<option>&nbsp;&nbsp; -- Select your region --</option>
 												<option> Africa</option>
 												<option> North America</option>
 												<option> South America</option>
@@ -295,12 +305,12 @@
 										</div>
 
 										<div class="col-lg-4 col-sm-12">
-												<label>Host City <span class="text-danger"> *</span></label>
-												<input type="text" name="citychap" placeholder=" what city you like to host?"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+												<label>Host City <span class="text-danger"> </span></label>
+												<input type="text" name="citychap" placeholder="&nbsp;&nbsp; what city you like to host?"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
 											</div>
 											<div class="col-lg-4 col-sm-12">
-													<label>Host Campus  <span class="text-danger"> *</span></label>
-													<input type="text" name="campuschap" placeholder=" what campus you like to host?"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+													<label>Host Campus  <span class="text-danger"> </span></label>
+													<input type="text" name="campuschap" placeholder="&nbsp;&nbsp; what campus you like to host?"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
 												</div>
 							</div>
 							<div class="row mt-3">
@@ -311,22 +321,22 @@
 							<div class="row mt-2">
 								<div class="col-lg-4 col-sm-12">
 										<label>Facebook <span class="text-danger"> *</span></label>
-										<input type="text" name="fbook"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+										<input type="text" name="fbook"  class="w-100 border-dark" placeholder="&nbsp;&nbsp;&nbsp; www.facebook.com/" style="border-radius: 25px; height: 45px;">
 									</div>
 									<div class="col-lg-4 col-sm-12">
 											<label>Linkedin <span class="text-danger"> *</span></label>
-											<input type="text" name="Linkedin"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+											<input type="text" name="Linkedin"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.linkedin.com/" style="border-radius: 25px; height: 45px;">
 										</div>
 
 								<div class="col-lg-4 col-sm-12">
 										<label>Instagram <span class="text-danger"> *</span></label>
-										<input type="text" name="instagram"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+										<input type="text" name="instagram"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.instagram.com/" style="border-radius: 25px; height: 45px;">
 									</div>
 							</div>
 							<div class="row mt-3">
 									<div class="col-lg-4 col-sm-12">
 											<label>Twitter <span class="text-danger"> *</span></label>
-											<input type="text" name="twitter"  class="w-100 border-dark" style="border-radius: 25px; height: 45px;">
+											<input type="text" name="twitter"  class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.twitter.com/" style="border-radius: 25px; height: 45px;">
 										</div>
 									<div class="col-lg-4 col-sm-12">
 											<label>How did you hear about us? <span class="text-danger"> *</span></label>
@@ -339,11 +349,15 @@
 											<option> Others</option>
 										</select>
 									</div>
+									<div class="col-lg-4 col-sm-12">
+											<label>Other, please specify <span class="text-danger"> </span></label>
+											<input type="text" name="others" class="w-100 border-dark" style="border-radius: 18px; height: 45px;">
+										</div>
 							</div>
 							<div class="row mt-3">
 								<div class="col-lg-12 col-sm-12">
 										<label>Why do you want to host a Fail Forward Chapter in your city or campus? <span class="text-danger"> *</span></label>
-										<textarea class="w-100 border-dark" style="height: 160px;" placeholder=" Why do you wish to join?"></textarea>
+										<textarea class="w-100 border-dark" style="height: 160px;" placeholder="&nbsp;&nbsp; Why do you wish to host a chapter?"></textarea>
 
 								</div>
 								<button type="submit" class="btn btn-primary btn-lg mt-3" style="border-radius: 25px;">Submit</button>
