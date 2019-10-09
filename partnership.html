@@ -152,7 +152,7 @@
 
 			</div>
 			<div class="col-lg-10 col-sm-12">
-				<form>
+				<form id="contact-form2" name="contact-form2"  action="Parnership.php" method="POST">
 				<h2>Partnership Form</h2>
 				<div class="row mb-2">
 					<div class="col-lg-4 col-sm-12">
@@ -207,22 +207,22 @@
 						<div class="row mb-2">
 								<div class="col-lg-6 col-sm-12">
 									<label>Facebook <span class="text-danger"> </span></label>
-									<input type="text" name="city" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.facebook.com/" style="border-radius: 18px; height: 45px;">
+									<input type="text" name="fbook" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.facebook.com/" style="border-radius: 18px; height: 45px;">
 								</div>
 								<div class="col-lg-6 col-sm-12">
 									<label>Twitter <span class="text-danger"> *</span></label>
-									<input type="text" name="pnumber" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.twitter.com/" style="border-radius: 18px; height: 45px;">
+									<input type="text" name="twitter" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.twitter.com/" style="border-radius: 18px; height: 45px;">
 								</div>
 
 							</div>
 							<div class="row mb-2">
 									<div class="col-lg-6 col-sm-12">
 										<label>Instagram <span class="text-danger"> </span></label>
-										<input type="text" name="city" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.instagram.com/" style="border-radius: 18px; height: 45px;">
+										<input type="text" name="instagram" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.instagram.com/" style="border-radius: 18px; height: 45px;">
 									</div>
 									<div class="col-lg-6 col-sm-12">
 										<label>LinkedIn <span class="text-danger"> *</span></label>
-										<input type="text" name="pnumber" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.linkedin.com/" style="border-radius: 18px; height: 45px;">
+										<input type="text" name="linkedin" class="w-100 border-dark" placeholder="&nbsp;&nbsp; www.linkedin.com/" style="border-radius: 18px; height: 45px;">
 									</div>
 	
 								</div>
@@ -233,9 +233,9 @@
 								</div>
 								<div class="col-lg-6 col-sm-12">
 									<label>Country <span class="text-danger"> *</span></label>
-									<input type="text" name="pnumber" class="w-100 border-dark" style="border-radius: 18px; height: 45px;">
+									<input type="text" name="country" class="w-100 border-dark" style="border-radius: 18px; height: 45px;">
 								</div>
-								<button type="submit" class="btn btn-primary btn-lg mt-3" style="border-radius: 25px;">Submit</button>
+								<button onclick="document.getElementById('contact-form2').submit();" class="btn btn-primary btn-lg mt-3" style="border-radius: 25px;">Submit</button>
 							</div>
 				</form>
 			</div>
