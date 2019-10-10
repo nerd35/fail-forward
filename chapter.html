@@ -91,7 +91,7 @@
 	<div class="container mt-4 mb-4 text-dark">
 		<div class="row mt-4 mb-4">
 			<div class="col-lg-10 col-sm-12  mt-4">
-				<h5>Fail Forward Membership </h5>
+				<h5>Fail Forward Chapter </h5>
 				<p>Fail Forward membership is open to all tech entrepreneurs all over the world. </p>
 				<h5>How do you become a Fail Forward member?</h5>
 				<p>There are 2 types of membership:</p>
@@ -232,8 +232,10 @@
             <div class="section-intro text-white mb-3 single-col-max mx-auto"
             >Get access to the latest information, resources, events and more </div>
 		    <div class="pt-3 text-center">
-                <input type="text" placeholder=" Enter Email to supscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
-                <a href="" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+                <form id="contact-form5" name="contact-form5"  action="subscribe.php" method="POST">
+					<input type="text" placeholder=" Enter Email to subscribe" name="subscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
+                <a  onclick="document.getElementById('contact-form5').submit();" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+				</form>
 		    </div>
 	    </div>
     </section><!--//cta-section-->

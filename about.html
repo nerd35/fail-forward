@@ -106,19 +106,21 @@
 
 
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Join Our Community</h3>
-            <div class="section-intro text-white mb-3 single-col-max mx-auto"
-            >Get access to the latest information, resources, events and more </div>
-		    <div class="pt-3 text-center">
-                <input type="text" placeholder=" Enter Email to supscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
-                <a href="" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
-		    </div>
-	    </div>
-    </section><!--//cta-section-->
+<section class="cta-section text-center py-5 theme-bg-dark position-relative">
+	<div class="theme-bg-shapes-right"></div>
+	<div class="theme-bg-shapes-left"></div>
+	<div class="container">
+		<h3 class="mb-2 text-white mb-3">Join Our Community</h3>
+		<div class="section-intro text-white mb-3 single-col-max mx-auto"
+		>Get access to the latest information, resources, events and more </div>
+		<div class="pt-3 text-center">
+			<form id="contact-form5" name="contact-form5"  action="subscribe.php" method="POST">
+				<input type="text" placeholder=" Enter Email to subscribe" name="subscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
+			<a  onclick="document.getElementById('contact-form5').submit();" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+			</form>
+		</div>
+	</div>
+</section><!--//cta-section-->
 
 
 

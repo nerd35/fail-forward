@@ -102,7 +102,7 @@
           <div class=" col-lg-9 col-sm-12 justify-content-center mb-1 section-intro ">Fail Forward is a global tech community for entrepreneurs who desire inclusion in the tech ecosystem. It is ideal for those seeking access to funding, business development and the right talents to ideate, build and grow a global profitable startup<br><br>At Fail Forward, we provide a platform for startup founders to share their failure-to-success stories and inspire other startup entrepreneurs in the tech ecosystem to learn from their experiences and build successful brands. </div>
               </div>
         </div>
-  
+
       </section>
       <section class="how-section">
           <div class="container">
@@ -115,7 +115,7 @@
                 </div><!--//icon-holder-->
                 <div class="desc p-3">
                 <h5><span class="step-count mr-2 text-warning">1</span> Fail Forward Local Chapters</h5>
-                  <p>Fail Forward operates through physical tech communities in campuses or cities called Fail Forward Chapters. Find out more about how to start a chapter here. Learn more about how to become a member here.</p>
+                  <p>Fail Forward operates through physical tech communities in campuses or cities called Fail Forward Chapters. Find out more about how to start a chapter <a href="membership.html" class="text-warning">here</a>. Learn more about how to become a member <a href="membership.html" class="text-warning">here</a>.</p>
                 </div><!--//desc-->
               </div><!--//item-->
               <div class="item col-12 col-md-4">
@@ -180,19 +180,21 @@
 
 
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
-	    <div class="theme-bg-shapes-right"></div>
-	    <div class="theme-bg-shapes-left"></div>
-	    <div class="container">
-		    <h3 class="mb-2 text-white mb-3">Join Our Community</h3>
-            <div class="section-intro text-white mb-3 single-col-max mx-auto"
-            >Get access to the latest information, resources, events and more </div>
-		    <div class="pt-3 text-center">
-                <input type="text" placeholder=" Enter Email to supscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
-                <a href="" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
-		    </div>
-	    </div>
-    </section><!--//cta-section-->
+        <section class="cta-section text-center py-5 theme-bg-dark position-relative">
+          <div class="theme-bg-shapes-right"></div>
+          <div class="theme-bg-shapes-left"></div>
+          <div class="container">
+            <h3 class="mb-2 text-white mb-3">Join Our Community</h3>
+                <div class="section-intro text-white mb-3 single-col-max mx-auto"
+                >Get access to the latest information, resources, events and more </div>
+            <div class="pt-3 text-center">
+                    <form id="contact-form5" name="contact-form5"  action="subscribe.php" method="POST">
+              <input type="text" placeholder=" Enter Email to subscribe" name="subscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
+                    <a  onclick="document.getElementById('contact-form5').submit();" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+            </form>
+            </div>
+          </div>
+        </section><!--//cta-section-->
 
 
 

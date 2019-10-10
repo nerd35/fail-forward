@@ -152,7 +152,7 @@
 
 			</div>
 			<div class="col-lg-10 col-sm-12">
-				<form id="contact-form2" name="contact-form2"  action="Parnership.php" method="POST">
+				<form id="contact-form2" name="contact-form2"  action="Partnership.php" method="POST">
 				<h2>Partnership Form</h2>
 				<div class="row mb-2">
 					<div class="col-lg-4 col-sm-12">
@@ -246,7 +246,7 @@
 
 
 
-    <section class="cta-section text-center py-5 theme-bg-dark position-relative">
+	<section class="cta-section text-center py-5 theme-bg-dark position-relative">
 	    <div class="theme-bg-shapes-right"></div>
 	    <div class="theme-bg-shapes-left"></div>
 	    <div class="container">
@@ -254,8 +254,10 @@
             <div class="section-intro text-white mb-3 single-col-max mx-auto"
             >Get access to the latest information, resources, events and more </div>
 		    <div class="pt-3 text-center">
-                <input type="text" placeholder=" Enter Email to supscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
-                <a href="" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+                <form id="contact-form5" name="contact-form5"  action="subscribe.php" method="POST">
+					<input type="text" placeholder=" Enter Email to subscribe" name="subscribe" style="border-radius: 18px; border: none; height: 50px;" class="w-50 border-0 shadow-lg">
+                <a  onclick="document.getElementById('contact-form5').submit();" class="btn btn-lg btn-warning text-white ml-3" style="border-radius: 25px;">Subscribe</a>
+				</form>
 		    </div>
 	    </div>
     </section><!--//cta-section-->
