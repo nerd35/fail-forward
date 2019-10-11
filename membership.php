@@ -36,7 +36,7 @@ $message = $_POST['message'];
 
 
 $content="First Name: $fname \n Last Name: $lname \n Name of startup: $startup \n Phone Number: $pnumber \n Email: $email \n Title: $title \n Country: $country \n Region: $region \n City Chapter: $citychap \n Campus Chapter: $campuschap \n Facebook: $fbook \n LinkedIn: $linkedin \n Instagram: $instagram \n Twitter: $twitter \n How did you Here About us: $howdid \n Others: $others \n Message: $message";
-$recipient = "queenesohe@gmail.com";
+$recipient = "membership@thefailforward.co";
 $subject = "Join Membership Application";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");

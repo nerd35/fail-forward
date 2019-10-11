@@ -14,7 +14,7 @@ $message = $_POST['message'];
 
 
 $content="First Name: $fname \n Last Name: $lname \n Title: $title \n Phone Number: $pnumber \n Email: $email \n Title: $title \n Message: $message";
-$recipient = "queenesohe@gmail.com";
+$recipient = "membership@thefailforward.co";
 $subject = "Equiry from visitor";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");

@@ -4,7 +4,7 @@ $subscribe = $_POST['subscribe'];
 
 
 $content="Subscription email: $subscribe ";
-$recipient = "queenesohe@gmail.com";
+$recipient = "info@thefailforward.co";
 $subject = "Subscription For Newsletter";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");

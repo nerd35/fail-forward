@@ -32,7 +32,7 @@ $others = $_POST['others'];
 
 
 $content="First Name: $fname \n Last Name: $lname \n Name Of organisation: $norg \n Phone Number: $pnumber \n Email: $email \n Company Website: $cwebsite \n Country: $country \n City: $city \n Company Social Media: $companysm \n Type of Partnership: $topart \n Facebook: $fbook \n LinkedIn: $linkedin \n Instagram: $instagram \n Twitter: $twitter \n Others: $others ";
-$recipient = "queenesohe@gmail.com";
+$recipient = "membership@thefailforward.co";
 $subject = "Partnership Application";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
