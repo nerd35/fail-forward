@@ -13,7 +13,7 @@ if(isset( $_POST['message']))
 $message = $_POST['message'];
 
 
-$content="First Name: $fname \n Last Name: $lname \n Title: $title \n Phone Number: $pnumber \n Email: $email \n Title: $title \n Message: $message";
+$content="First Name: $fname \n Last Name: $lname \n Title: $title \n Phone Number: $pnumber \n Email: $email \n Message: $message";
 $recipient = "membership@thefailforward.co";
 $subject = "Equiry from visitor";
 $mailheader = "From: $email \r\n";
